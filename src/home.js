@@ -46,7 +46,7 @@ export function workingHours () {
         hoursList.append(listItem);
     });
 
-    return workingHourContainer
+    return workingHourContainer;
 }
 
 export function cafeLocation () {
