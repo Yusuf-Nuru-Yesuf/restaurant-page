@@ -36,8 +36,32 @@ function renderNav() {
     });
 }
 
+function renderPage(event) {
+    const target = event.target;
+    const page = target.dataset.page;
+    pageContent.innerHTML = '';
+    if (page.toLowerCase() === "home") {
+        pageContent.appendChild(homeHeader());
+        pageContent.appendChild(cafeDescription());
+        pageContent.appendChild(workingHours());
+        pageContent.appendChild(cafeLocation())
+    } else if (page.toLowerCase() === "menu") {
+        pageContent.appendChild(menuHeader());
+        pageContent.appendChild(beverage());
+        pageContent.appendChild(side())
+        pageContent.appendChild(mainDish())
+    } else {
+        pageContent.appendChild(contactUs())
+    }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     renderNav();
+    pageContent.innerHTML = "";
+    pageContent.appendChild(homeHeader());
+    pageContent.appendChild(cafeDescription());
+    pageContent.appendChild(workingHours());
+    pageContent.appendChild(cafeLocation())
 })
 
 
