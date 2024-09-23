@@ -59,5 +59,5 @@ export function cafeLocation () {
     cafeLocationContainer.appendChild(cafeLocationHeading)
     cafeLocationContainer.appendChild(cafeLocationDescription);
 
-    return cafeLocationContainer
+    return cafeLocationContainer;
 }
