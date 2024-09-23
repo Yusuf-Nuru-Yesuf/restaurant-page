@@ -26,7 +26,19 @@ function createBtns() {
     return buttonElements;
 }
 
+function renderNav() {
+    const nav = document.querySelector("nav");
 
+    const buttons = createBtns();
+    Object.keys(buttons).forEach(key => {
+        nav.appendChild(buttons[key]);
+        buttons[key].addEventListener("click", renderPage);
+    });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    renderNav();
+})
 
 
 
