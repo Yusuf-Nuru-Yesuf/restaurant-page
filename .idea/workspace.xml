@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b98df53-7208-4878-b890-0e316af43a89" name="Changes" comment="Add style to each page">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
-    </list>
+    <list default="true" id="5b98df53-7208-4878-b890-0e316af43a89" name="Changes" comment="xml config" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +82,7 @@
       <updated>1726990149801</updated>
       <workItem from="1726990150884" duration="1727000" />
       <workItem from="1726991910608" duration="21996000" />
-      <workItem from="1727246335676" duration="2448000" />
+      <workItem from="1727246335676" duration="2831000" />
     </task>
     <task id="LOCAL-00001" summary="Add home page content">
       <option name="closed" value="true" />
@@ -183,7 +180,47 @@
       <option name="project" value="LOCAL" />
       <updated>1727248513824</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add style to each page">
+      <option name="closed" value="true" />
+      <created>1727249102074</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727249102074</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add style to each page">
+      <option name="closed" value="true" />
+      <created>1727249111050</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1727249111050</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add style to each page">
+      <option name="closed" value="true" />
+      <created>1727249119556</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1727249119556</updated>
+    </task>
+    <task id="LOCAL-00016" summary="xml config">
+      <option name="closed" value="true" />
+      <created>1727249144709</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727249144709</updated>
+    </task>
+    <task id="LOCAL-00017" summary="xml config">
+      <option name="closed" value="true" />
+      <created>1727249158999</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1727249158999</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +234,7 @@
     <MESSAGE value="Add function to render the navbar" />
     <MESSAGE value="Add function to render the page content that also allows to navigate through the pages available" />
     <MESSAGE value="Add style to each page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add style to each page" />
+    <MESSAGE value="xml config" />
+    <option name="LAST_COMMIT_MESSAGE" value="xml config" />
   </component>
 </project>
