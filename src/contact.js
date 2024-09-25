@@ -9,13 +9,13 @@ export function contactUs () {
 
     const contacts = [
         {name: "John Law", phoneNumber: "555-666-7777", occupation: "Chef", email: "john@yuya.food"},
-        {name: "Gary Tom", phoneNumber: "555-666-7776", occupation: "Chef", email: "gary@yuya.food"},
-        {name: "Lotus Nat", phoneNumber: "555-666-7775", occupation: "Chef", email: "lotus@yuya.food"}
+        {name: "Gary Tom", phoneNumber: "555-666-7776", occupation: "Manger", email: "gary@yuya.food"},
+        {name: "Lotus Nat", phoneNumber: "555-666-7775", occupation: "Waiter", email: "lotus@yuya.food"}
     ]
 
     contacts.forEach(contact => {
         const contactPerson = document.createElement("li");
-        contactPerson.textContent = contactPerson.name;
+        contactPerson.textContent = contact.name;
         const contactPersonOccupation = document.createElement("p");
         contactPersonOccupation.textContent = contact.occupation;
         const contactPersonPhone = document.createElement("p");

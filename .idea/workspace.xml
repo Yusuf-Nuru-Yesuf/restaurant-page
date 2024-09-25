@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b98df53-7208-4878-b890-0e316af43a89" name="Changes" comment="xml config" />
+    <list default="true" id="5b98df53-7208-4878-b890-0e316af43a89" name="Changes" comment="xml config">
+      <change beforePath="$PROJECT_DIR$/src/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +85,7 @@
       <updated>1726990149801</updated>
       <workItem from="1726990150884" duration="1727000" />
       <workItem from="1726991910608" duration="21996000" />
-      <workItem from="1727246335676" duration="2831000" />
+      <workItem from="1727246335676" duration="3163000" />
     </task>
     <task id="LOCAL-00001" summary="Add home page content">
       <option name="closed" value="true" />
@@ -220,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727249158999</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="xml config">
+      <option name="closed" value="true" />
+      <created>1727249179379</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1727249179379</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

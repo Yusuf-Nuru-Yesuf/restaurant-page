@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     border: none;
-    background: url("https://img.freepik.com/free-photo/wooden-planks-with-blurred-restaurant-background_1253-56.jpg?w=826&t=st=1727079965~exp=1727080565~hmac=912a30b6b78b864faea272bf9d656162697e76cbd557b7c24476d9a794a297fb");
+    background: rgba(205, 189, 129, 0.4);
 }
 
 header {
@@ -36,8 +36,8 @@ li {
 }
 
 .active {
-    border: rgba(209, 190, 143, 0.52) solid 1px;
+    border: rgba(220, 185, 106, 0.5) solid 1px;
     border-bottom: none;
-    background-color: rgba(211, 192, 144, 0.52);
+    background-color: rgba(220, 185, 106, 0.5);
 }
 
