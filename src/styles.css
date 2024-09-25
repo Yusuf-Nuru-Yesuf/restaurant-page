@@ -1,0 +1,39 @@
+body {
+    color: #221f1f;
+    font-family: "Roboto Light", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("https://img.freepik.com/free-photo/wooden-planks-with-blurred-restaurant-background_1253-56.jpg?w=826&t=st=1727079965~exp=1727080565~hmac=912a30b6b78b864faea272bf9d656162697e76cbd557b7c24476d9a794a297fb");
+}
+
+header {
+    margin: 0;
+    padding: 1rem 0 0 0;
+}
+
+nav {
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav  button {
+    border-radius: 15px 15px 0 0;
+    background: transparent;
+    height: 2.3rem;
+    width: 5.3rem;
+    border-bottom: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+    border: black solid 1px;
+}
+
+.active {
+    background-color: brown;
+}
+

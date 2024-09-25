@@ -19,7 +19,6 @@ function createBtns() {
         button.dataset.page = btn.text;
         button.id = btn.text.toLowerCase();
         button.classList.add(btn.class);
-
         buttonElements[btn.text.toLowerCase()] = button;
     });
 
@@ -40,11 +39,18 @@ function renderPage(event) {
     const target = event.target;
     const page = target.dataset.page;
     pageContent.innerHTML = '';
+    const buttons = document.querySelectorAll(".btn");
+    buttons.forEach(button => {
+        button.classList.remove("active");
+    });
+    target.classList.add("active");
+
     if (page.toLowerCase() === "home") {
         pageContent.appendChild(homeHeader());
         pageContent.appendChild(cafeDescription());
         pageContent.appendChild(workingHours());
         pageContent.appendChild(cafeLocation())
+
     } else if (page.toLowerCase() === "menu") {
         pageContent.appendChild(menuHeader());
         pageContent.appendChild(beverage());
@@ -57,6 +63,8 @@ function renderPage(event) {
 
 document.addEventListener("DOMContentLoaded", () => {
     renderNav();
+    const homeButton = document.querySelector("#home");
+    homeButton.classList.add("active");
     pageContent.innerHTML = "";
     pageContent.appendChild(homeHeader());
     pageContent.appendChild(cafeDescription());
