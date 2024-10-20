@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b98df53-7208-4878-b890-0e316af43a89" name="Changes" comment="Update style and fix name bug">
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
     "git-widget-placeholder": "main",
     "javascript.nodejs.core.library.configured.version": "20.11.1",
     "javascript.nodejs.core.library.typings.version": "20.11.30",
-    "last_opened_file_path": "/home/yusuf-yesuf/repos/restaurant-page",
+    "last_opened_file_path": "/home/yusuf-yesuf/repos/studybuddy/studybuddy-frontend",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -86,6 +87,7 @@
       <workItem from="1726990150884" duration="1727000" />
       <workItem from="1726991910608" duration="21996000" />
       <workItem from="1727246335676" duration="3483000" />
+      <workItem from="1727440209874" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="Add home page content">
       <option name="closed" value="true" />
@@ -271,6 +273,6 @@
     <MESSAGE value="Add style to each page" />
     <MESSAGE value="xml config" />
     <MESSAGE value="Update style and fix name bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update style and fix name bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
